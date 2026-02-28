@@ -15,7 +15,7 @@
 - **Label Type:** Regression (Next Token Prediction).
 - **Label Description:** The Next Token Prediction uses an input sequence of the stated variables and predicts the next value that would follow the most recent value in the input sequence
 - **Label Values:** Floating point numbers, typically within a range of ±20 m/s.
-- **Label Distribution:** The distributions of the target values roughly follow a normal distribution. While the mean for the meridional wind is approximately centered around $0ms^{-1}$, there is a slight bias towards positive values for the zonal wind, indicating the prevalence of westerly winds at the location at hand.
+- **Label Distribution:** The distributions of the target values roughly follow a normal distribution. While the mean for the meridional wind is approximately centered around 0 m/s, there is a slight bias towards positive values for the zonal wind, indicating the prevalence of westerly winds at the location at hand.
 
 ### Feature Description
 
