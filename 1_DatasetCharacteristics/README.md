@@ -5,8 +5,8 @@
 ## Dataset Information
 
 ### Dataset Source
-- **Dataset Link:** [NCEP GFS 0.25 Degree Global Forecast Grids Historical Archive](https://gdex.ucar.edu/datasets/d084001/). Data has been obtained via [https://tds.gdex.ucar.edu/thredds/catalog/files/g/d084001/catalog.html](https://tds.gdex.ucar.edu/thredds/catalog/files/g/d084001/catalog.html).
-- **Dataset Owner/Contact:** DOC/NOAA/NWS/NCEP > National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce. 2015, updated daily. NCEP GFS 0.25 Degree Global Forecast Grids Historical Archive. NSF National Center for Atmospheric Research. https://doi.org/10.5065/D65D8PWK.
+- **Dataset Link:** [NCEP GFS 0.25 Degree Global Forecast Grids Historical Archive](https://gdex.ucar.edu/datasets/d084001/). </br>Data has been obtained via [https://tds.gdex.ucar.edu/thredds/catalog/files/g/d084001/catalog.html](https://tds.gdex.ucar.edu/thredds/catalog/files/g/d084001/catalog.html).
+- **Dataset Owner/Contact:** </br>DOC/NOAA/NWS/NCEP > National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce. 2015, updated daily. NCEP GFS 0.25 Degree Global Forecast Grids Historical Archive. NSF National Center for Atmospheric Research. https://doi.org/10.5065/D65D8PWK.
 ### Dataset Characteristics
 - **Number of Observations:** In total, 32,162 individual files were downloaded and linearly interpolated in the temporal dimension from the original 3-hourly interval to an hourly resolution. The individual files were subsequently merged into a single file.
 - **Number of Features:** Three primary physical variables: *u-component of wind* (zonal wind) [m/s], *v-component of wind* (meridional wind) [m/s], and *mean sea level pressure* [Pa].
