@@ -31,6 +31,6 @@
 - **Secondary Metric:** MAE and Negative Log-Likelihood (NLL) for uncertainty quantification.
 
 ## Comparative Analysis
-- **Baseline (Persistence) MSE:**
-- **Transformer Model MSE:**
-- **Improvement:**
+- **Baseline (Persistence) MSE:** 0.017396 (using normalized data)
+- **Transformer Model MSE:** TBD
+- **Improvement:** TBD

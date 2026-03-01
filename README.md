@@ -12,7 +12,7 @@ To this end, a number of experiments are conducted to assess the effect of diffe
 ### Task Type
 
 Eventually, the goal is to develop an approach to improve the forecast produced by a common NWP model to match the actually observed value.</br>
-Due to the absense of observational data, the dataset [NCEP GFS 0.25 Degree Global Forecast Grids Historical Archive](https://gdex.ucar.edu/datasets/d084001/) from the Global Forcasting System (GFS) has been used and interpolated to hourly resolution at Kiel Lighthouse (54.4996° N,, 10.2737° E)].
+Due to the absense of observational data, the dataset [NCEP GFS 0.25 Degree Global Forecast Grids Historical Archive](https://gdex.ucar.edu/datasets/d084001/) from the Global Forcasting System (GFS) has been used and interpolated to hourly resolution at Kiel Lighthouse (54.4996° N, 10.2737° E)].
 The task type is therefore framed as a supervised autoregressive regression problem.
 
 ### Results Summary
@@ -24,10 +24,10 @@ The task type is therefore framed as a supervised autoregressive regression prob
 
 > [!IMPORTANT]
 > Due to constraints in the current implementation of the `WeatherModelDataset(Dataset)` and the `WeatherModelDataModule(LightningDataModule)`, their coupling, the handling of NaN values and the batching operations will be subject to refactoring to also enable cross-validation of the different experiment.
-> More importantly, the current implementation likely suffers from temporal leakage, due to a possible overlap of the trailing data points from the training data into the first data points of the validation data. This issue will be adressed alongside with the implementation **Experiment A**, as, in contrast to a value forecast, using a delta forecast and regularizing predictions where ($\Delta = 0$) () might be necessary to prevent the model from learning to predict a persistent value (→ see **[Baseline Model](2_BaselineModel/baseline_model.ipynb)**). Avoiding persistence could therefore be an equally critical prerequisite for all subsequent experiments. Detailed evaluation of the models has therefore been postponed until these issues are resolved.
+> More importantly, the current implementation likely suffers from temporal leakage, due to a possible overlap of the trailing data points from the training data into the first data points of the validation data. This issue will be adressed alongside with the implementation **Experiment A**, as, in contrast to a value forecast, using a delta forecast and regularizing predictions where ($\Delta = 0$) might be necessary to prevent the model from learning to predict a persistent value (→ see **[Baseline Model](2_BaselineModel/baseline_model.ipynb)**). Avoiding persistence could therefore be an equally critical prerequisite for all subsequent experiments. Detailed evaluation of the models has therefore been postponed until these issues are resolved.
 
 #### Model Comparison
-- **Baseline Performance:** 
+- **Baseline Performance:** 0.017396 (using normalized data)
 - **Improvement Over Baseline:** TBD
 - **Best Alternative Model:** TBD
 
@@ -42,9 +42,10 @@ The task type is therefore framed as a supervised autoregressive regression prob
 1. **[Literature Review](0_LiteratureReview/README.md)**
 2. **[Dataset Characteristics](1_DatasetCharacteristics/exploratory_data_analysis.ipynb)**
 3. **[Baseline Model](2_BaselineModel/baseline_model.ipynb)**
-4. **[Model Definition and Evaluation](3_Model/model_definition_evaluation)**
+4. **[Model Definition and Evaluation](3_Model/model_definition_evaluation.ipynb)**
 5. **[Presentation](4_Presentation/README.md)**
 
 ## Cover Image
 
 ![Project Cover Image](CoverImage/cover_image.png)
+based on [Leuchtturm Kiel mit Lotsenboot Holtenau an der Pier by Blutgretchen](https://de.wikipedia.org/wiki/Leuchtturm_Kiel#/media/Datei:Leuchtturm_kiel_20160919_bg_3.jpg)

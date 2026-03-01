@@ -11,7 +11,7 @@
   * _"[...] It serves as a benchmark for evaluating the accuracy of other forecasting models, with its reliability depending on stable weather conditions."_</br>(AI generated definition based on: [Renewable and Sustainable Energy Reviews, 2018](https://www.sciencedirect.com/science/article/abs/pii/S1364032117311620) obtained via [ScienceDirect - Persistence Model](https://www.sciencedirect.com/topics/engineering/persistence-model))
 ### Model Performance
 - **Evaluation Metric:** MSE
-- **Performance Score:** 
+- **Performance Score:** 0.017396 (using normalized data)
 - **Cross-Validation Score:** _-no CV applied-_
 
 ### Evaluation Methodology
