@@ -8,7 +8,7 @@
 - **Baseline Model Type:** Persistence
 - **Rationale:** The rational behind using persistence as the baseline for evaluating MLWP models is greatly summarize by the following two quotes:</br>
   * _"Weather and atmospheric patterns are often persistent. The simplest weather forecasting method is the so-called persistence model, which assumes that the future state of a system will be similar (or equal) to the present state. Machine learning (ML) models [...] need to be compared to the persistence model to analyse whether they provide a competitive solution to the problem at hand."_</br>[Perenz-Ortiz et al., 2018](https://ieeexplore.ieee.org/document/8489179)
-  * _"[...] It serves as a benchmark for evaluating the accuracy of other forecasting models, with its reliability depending on stable weather conditions."_</br>(AI generated definition based on: Renewable and Sustainable Energy Reviews, 2018 obtained via [ScienceDirect - Persistence Model](https://www.sciencedirect.com/topics/engineering/persistence-model))
+  * _"[...] It serves as a benchmark for evaluating the accuracy of other forecasting models, with its reliability depending on stable weather conditions."_</br>(AI generated definition based on: [Renewable and Sustainable Energy Reviews, 2018](https://www.sciencedirect.com/science/article/abs/pii/S1364032117311620) obtained via [ScienceDirect - Persistence Model](https://www.sciencedirect.com/topics/engineering/persistence-model))
 ### Model Performance
 - **Evaluation Metric:** MSE
 - **Performance Score:** 
