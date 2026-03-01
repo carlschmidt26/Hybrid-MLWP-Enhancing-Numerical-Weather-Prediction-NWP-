@@ -2,7 +2,7 @@
 
 ## Repository Link
 
-[[https://github.com/your_username/your_project_name](https://github.com/carlschmidt26/Hybrid-MLWP-Enhancing-Numerical-Weather-Prediction-NWP-)]
+[https://github.com/carlschmidt26/Hybrid-MLWP-Enhancing-Numerical-Weather-Prediction-NWP-](https://github.com/carlschmidt26/Hybrid-MLWP-Enhancing-Numerical-Weather-Prediction-NWP-)
 
 ## Description
 
@@ -12,7 +12,7 @@ To this end, a number of experiments are conducted to assess the effect of diffe
 ### Task Type
 
 Eventually, the goal is to develop an approach to improve the forecast produced by a common NWP model to match the actually observed value.</br>
-Due to the absense of observational data, the dataset [NCEP GFS 0.25 Degree Global Forecast Grids Historical Archive](https://gdex.ucar.edu/datasets/d084001/) from the Global Forcasting System (GFS) has been used and interpolated to hourly resolution at Kiel Lighthouse ()].
+Due to the absense of observational data, the dataset [NCEP GFS 0.25 Degree Global Forecast Grids Historical Archive](https://gdex.ucar.edu/datasets/d084001/) from the Global Forcasting System (GFS) has been used and interpolated to hourly resolution at Kiel Lighthouse (54.4996° N,, 10.2737° E)].
 The task type is therefore framed as a supervised autoregressive regression problem.
 
 ### Results Summary
